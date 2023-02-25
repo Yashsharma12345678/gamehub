@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-  <div className='bg-gray-900'>
+  <div className='bg-gray-900 h-screen w-screen scrollbar-hide overflow-x-hidden overflow-y-scroll '>
     <Navbar/>
     
     <Routes>
@@ -22,13 +22,13 @@ function App() {
         <Route path="/contact" element={<Contacts/>}/>
     </Routes>
     
-    <div className="h-96"></div>
+    
 
-      <footer id="footer">
+      <footer className=''>
         <Footer/>
-      </footer>
+      </footer> 
+     </div>
       {/* </div> */}
-      </div>
     
     
     </>
